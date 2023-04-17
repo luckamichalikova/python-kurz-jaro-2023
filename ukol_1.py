@@ -14,7 +14,7 @@ print(jmeno_a_prijmeni.lower())
 
 # standardní varianta - první písmeno velké, další malá (vypíše např. Jana Malá)
 jmeno_a_prijmeni = input("Zadej své jméno a příjmení:")
-print(jmeno_a_prijmeni)
+print(jmeno_a_prijmeni.title())
 
 
 # iniciály (vypíše např. J. M.)
